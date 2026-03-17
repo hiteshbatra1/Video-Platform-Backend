@@ -23,7 +23,7 @@ const userSchema = new Schema(
       required: [true, "Password is required"],
     },
     avatar: {
-      type: String, //cloudnary URL
+      type: String, //cloudinary URL
       required: true,
     },
     coverImage: {
